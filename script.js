@@ -1,5 +1,5 @@
 var boxEle = document.body.querySelector(".box");
 
-var prompter = prompt("Who are you?");
+var prompter = prompt("What is your name?");
 
-boxEle.innerHTML="Name: "+prompter;
+boxEle.innerHTML="My name is : "+prompter;
